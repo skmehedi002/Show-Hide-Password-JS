@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Show Hide Password JS</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+a<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="account-form" style="margin-top : 35px">
+                <form class="needs-validation" action="profile.html" novalidate>
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <label for="validationTooltip03">New Password</label>
+                            <div class="input-group" id="show_hide_password">
+                                <input type="password" class="form-control" id="validationTooltip03" placeholder="" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text"> <i class="fa fa-eye-slash" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="invalid-tooltip">
+                                    Please provide a valid password.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <label for="validationTooltip06">Confirm Password</label>
+                            <div class="input-group" id="show_hide_password_2">
+                                <input type="password" class="form-control" id="validationTooltip06" placeholder="" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="fa fa-eye-slash" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="invalid-tooltip">
+                                    Your password does not matched.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit" style= "margin-top: 15px">Submit form</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
